@@ -1,6 +1,7 @@
 let API_KEY = "AIzaSyDnpJeld9MYfsfFYnf7J9rhe0mfBZKsnDY";
 let playlistId = "UUBvc7pmUp9wiZIFOXEp1sCg";
 let maxres = 8;
+
 let url = `https://www.googleapis.com/youtube/v3/playlistItems?key=${API_KEY}&part=snippet&playlistId=${playlistId}&maxResults=${maxres}`;
 
 let youtubeInfo = document.querySelector(".youtubeInfo");
